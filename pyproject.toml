@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "sce-image-extractor"
+version = "0.1.0"
+description = ""
+authors = ["North101"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+pillow = "^10.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+multi_line_output=3
+include_trailing_comma=true
+
+[tool.autopep8]
+indent_size = 2
+max_line_length = 120
